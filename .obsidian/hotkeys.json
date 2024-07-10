@@ -1,0 +1,70 @@
+{
+  "templater-obsidian:replace-in-file-templater": [],
+  "workspace:new-tab": [],
+  "templater-obsidian:Templates/Math template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "templater-obsidian:Templates/Flashcard template.md": [],
+  "editor:toggle-bold": [],
+  "templater-obsidian:Templates/Blackboard bold.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:Templates/Logic translation.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:Templates/Item MOC template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:Templates/Tikz diagram.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ]
+}

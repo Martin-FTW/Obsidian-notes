@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "faa3956d9230757f",
+    "type": "split",
+    "children": [
+      {
+        "id": "73bf015950331181",
+        "type": "leaf",
+        "dimension": 51.113716295427906,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Zettelkasten/The Pantheon @Renatus.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "4883bcba2b210521",
+        "type": "leaf",
+        "dimension": 48.886283704572094,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Zettelkasten/Sequences.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b204787d0d446d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c31feda080295f3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10b3ea2f4a172c9b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "183aee818e94c6c2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#fleeting",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "21864c06ed7dfb6b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 178.0107650756836
+  },
+  "right": {
+    "id": "e24dbc0c7ebc633a",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd71eb98359d64a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba67f77a37c9623b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Zettelkasten/The Pantheon @Renatus.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfae377b42c489df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7cc7832bf9f7f7b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Zettelkasten/The Pantheon @Renatus.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 100
+  },
+  "active": "73bf015950331181",
+  "lastOpenFiles": [
+    "Zettelkasten/Sequences.md",
+    "Zettelkasten/Limits.md",
+    "Zettelkasten/Set Language.md",
+    "Zettelkasten/Statistics notation and theorems.md",
+    "Zettelkasten/Statistics terminologies.md",
+    "Zettelkasten/Variability.md",
+    "Zettelkasten/Statistics.md",
+    "Zettelkasten/Sampling methods.md",
+    "Zettelkasten/Properties of vector spaces.md",
+    "Zettelkasten/Definition of vector spaces.md"
+  ]
+}

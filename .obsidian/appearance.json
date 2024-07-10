@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "",
+  "showViewHeader": true,
+  "baseFontSize": 15,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "tikz"
+  ]
+}
