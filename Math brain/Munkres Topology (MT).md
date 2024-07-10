@@ -151,4 +151,4 @@
 - [[MT T 30.3 (Second-countable implies Lindelof and separable)]]
 ## 31 Separation axioms
 - [[MT D (Separation axioms)]]
-- [[MT L 31.1 (Characterization of regularity and normality for T1 spaces)]]
+- [[MT L 31.1 (Characterization of regularity and normality for T1 spaces)]] test
