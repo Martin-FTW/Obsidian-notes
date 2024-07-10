@@ -28,8 +28,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +188,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "768b1eb6d15996b6",
+  "active": "244555ac1944bf4d",
   "lastOpenFiles": [
     "MOC.md",
     "Math brain/Untitled 1.md",

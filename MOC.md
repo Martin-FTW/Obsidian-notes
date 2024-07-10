@@ -22,5 +22,3 @@
 - [[Diagonalizability]]
 - [[Diagonalizability.canvas]]
 - [[Bachmann–Landau notation]]
-
-Testing *time*
