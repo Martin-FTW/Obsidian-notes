@@ -23,15 +23,15 @@ console.log(lastnum)
 lastnum = (tp.file.tags.includes("#nonum")&&type!="Exercise")||(tp.file.tags.includes("#nonumdef")&&type=="Definition") ? "" : lastnum - "-1"; 
 const num = await tp.system.prompt("Number or name:", `${lastnum}`, true);
 let output = ""
+
 if (isNaN(num)) output += "(" + num + ")";
 else {
 	const name = await tp.system.prompt("Optional name:", "", true);
-	output = chapter + ".";
+	output = tp.file.tags.includes("#nonumch") ? "" : chapter + ".";
 	if (section != "") output += section + ".";
 	output += num;
 	if (name != "") output += " (" + name + ")";
 }
-console.log(title);
 tp.file.cursor_append(`\n- [[${title} ${typeletter} ${output}]]`);
 await tp.file.create_new(`Book: [[${tp.file.title}]]
 # ${type} ${output}

@@ -4,12 +4,13 @@
 - [[Bartle Introduction to Real Analysis (ItRA)]]
 - [[Munkres Topology (MT)]]
 - [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
-## Courses
+- [[Tu An Introduction to Manifolds (AItM)]]
+### Courses
 - [[MATH2068]]
 - [[MATH2078]]
 - [[MATH3030]]
 - [[MATH3230]]
-## Cheatsheets
+### Cheatsheets
 - [[Image, Preimage]]
 - [[Injective, Surjective]]
 - [[Function Composition]]
@@ -22,3 +23,4 @@
 - [[Diagonalizability]]
 - [[Diagonalizability.canvas]]
 - [[Bachmann–Landau notation]]
+- [[Taylor]]
