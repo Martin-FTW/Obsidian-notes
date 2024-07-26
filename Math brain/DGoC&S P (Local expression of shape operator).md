@@ -1,4 +1,4 @@
-Book: [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
+ Book: [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
 # Proposition (Local expression of shape operator)
 Let $S$ be an oriented surface with orientation $N$.
 Let $p\in S$ and $\varphi:U\to S$ be a positively-oriented parametrization at $p$.

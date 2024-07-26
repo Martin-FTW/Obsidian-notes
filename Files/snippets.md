@@ -6,7 +6,7 @@
     {trigger: "mk", replacement: "$$0$", options: "tA"},
     {trigger: "dm", replacement: "$$$0$$", options: "tAw"},
     {trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
-    {trigger: "disp", replacement: "\\displaystyle ", options: "mA"},
+    {trigger: "\\\$((?:(?!\\\$).)*?)disp", replacement: "\$\\displaystyle [[0]]", options: "rmA"},
 
 	// Links
 
@@ -25,7 +25,8 @@
     {trigger: "cdot", replacement: "\\cdot", options: "mA", priority: 2},
     {trigger: ":=", replacement: "\\coloneqq", options: "mA", priority: 2},
     {trigger: "div", replacement: "\\divides", options: "mA", priority: 2},
-    {trigger: "adj", replacement: "^\{*\}", options: "mA"},
+    {trigger: "ast", replacement: "^*", options: "mA"},
+    {trigger: "(\\\\frac\\{.*?\\}\\{.*?\\})at", replacement: "\\left.[[0]]\\right\\vert_{$1}$2", options: "rmA"},
 
     // Integer intervals
     {trigger: "]]", replacement: "\\ii{$0}{$1}$2", options: "mA"},
@@ -53,10 +54,14 @@
     {trigger: "\\inf ty", replacement: "\\infty", options: "mA", priority: 2},
     {trigger: "d_\{a\}l", replacement: "\\dual", options: "mA", priority: 2},
     {trigger: "ot\\im es", replacement: "\\otimes", options: "mA", priority: 2},
+    {trigger: "\\cotp", replacement: "T_{${0:p}}^*${1:M}$2", options: "mA", priority: 2},
+    {trigger: "_{p}tau", replacement: "\\uptau", options: "mA", priority: 2},
+    {trigger: "\\dome", replacement: "d\\omega", options: "mA", priority: 10},
  
     //macros
     {trigger: "\\in er", replacement: "\\innerp\{$0\}\{$1\}\{\}$2", options: "mA"},
     {trigger: "wed", replacement: "\\wedge", options: "mA"},
+    {trigger: "pb", replacement: "\\pullback", options: "mA"},
     
     
     // Greek letters
@@ -191,8 +196,8 @@
     {trigger: "sm", replacement: "\\setminus", options: "mA"},
     {trigger: "||", replacement: "\\mid", options: "mA"},
     {trigger: "inn", replacement: "\\in", options: "mA"},
-    {trigger: "sub", replacement: "\\subset", options: "mA"},
-    {trigger: "\\subset eq", replacement: "\\subseteq", options: "mA"},
+    {trigger: "sub", replacement: "\\subseteq", options: "mA"},
+    {trigger: "\\subseteqn", replacement: "\\subsetneq", options: "mA"},
     {trigger: "\\sup er", replacement: "\\supset", options: "mA"},
     {trigger: "\\supset eq", replacement: "\\supseteq", options: "mA"},
     //{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
@@ -229,6 +234,7 @@
     {trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
     {trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
     {trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
+    {trigger: "RP", replacement: "\\mathbb{RP}", options: "mA"},
     {trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
     {trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
     {trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
@@ -242,14 +248,17 @@
 
 
     // Derivatives
-    {trigger: "par", replacement: "\\dfrac{ \\partial ${0:y} }{ \\partial ${1:x} }$2", options: "m"},
-    {trigger: "pap", replacement: "\\left.\\dfrac{ \\partial }{ \\partial x^{${0:i}} }\\right\\vert_{p}$2", options: "m"},
-    {trigger: "pai", replacement: "\\dfrac{ \\partial }{ \\partial x^{${0:i}} }$1", options: "m"},
-    {trigger: "pa2", replacement: "\\dfrac{ \\partial^{2} ${0:y} }{ \\partial ${1:x}^{2} } $2", options: "mA"},
-    {trigger: "pa3", replacement: "\\dfrac{ \\partial^{3} ${0:y} }{ \\partial ${1:x}^{3} } $2", options: "mA"},
-    {trigger: "pa([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
-    {trigger: "pa([A-Za-z])([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial^{2} [[0]] }{ \\partial [[1]] \\partial [[2]] } ", options: "rm"},
-    {trigger: "pa([A-Za-z])([A-Za-z])2", replacement: "\\frac{ \\partial^{2} [[0]] }{ \\partial [[1]]^{2} } ", options: "rmA"},
+    {trigger: "par", replacement: "\\frac{ \\partial ${0:y} }{ \\partial ${1:x} }$2", options: "m"},
+    {trigger: "pap", replacement: "\\left.\\frac{ \\partial }{ \\partial x^{${0:i}} }\\right\\vert_{p}$2", options: "m"},
+    {trigger: "paf", replacement: "\\frac{ \\partial f}{ \\partial x^{${0:i}} }$2", options: "m"},
+    {trigger: "pai", replacement: "\\frac{ \\partial }{ \\partial x^{${0:i}} }$1", options: "m"},
+    {trigger: "pafij", replacement: "\\frac{ \\partial ${0:F}^{i}}{ \\partial x^{j} }$2", options: "m"},
+    {trigger: "jac", replacement: "\\frac{ \\partial (F^{1},\\dots,F^{n}) }{ \\partial (x^{1},\\dots,x^{n}) }$2", options: "m"},
+    {trigger: "pa2", replacement: "\\frac{ \\partial^{2} ${0:y} }{ \\partial ${1:x}^{2} } $2", options: "mA"},
+    {trigger: "pa3", replacement: "\\frac{ \\partial^{3} ${0:y} }{ \\partial ${1:x}^{3} } $2", options: "mA"},
+//    {trigger: "pa([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
+//    {trigger: "pa([A-Za-z])([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial^{2} [[0]] }{ \\partial [[1]] \\partial [[2]] } ", options: "rm"},
+//    {trigger: "pa([A-Za-z])([A-Za-z])2", replacement: "\\frac{ \\partial^{2} [[0]] }{ \\partial [[1]]^{2} } ", options: "rmA"},
     {trigger: "de([A-Za-z])([A-Za-z])", replacement: "\\frac{ d[[0]] }{ d[[1]] } ", options: "rm"},
     {trigger: "de([A-Za-z])([A-Za-z])2", replacement: "\\frac{ d^{2}[[0]] }{ d[[1]]^{2} } ", options: "rmA"},
     {trigger: "ddt", replacement: "\\frac{d}{dt} ", options: "mA"},

@@ -2,7 +2,7 @@ Book: [[Munkres Topology (MT)]]
 # Theorem 27.1 (Every closed interval of ordered sets with lub property is compact)
 Let $X$ be a simply ordered set having the least upper bound property.
 Then every closed interval in $X$ with the order topology is compact. 
-That is, for any $a<b$ and open covering $\mathscr{A}$ of $[a,b]$, there is a finite subcover.
+That is, for any $a<b$ and open covering $\mathscr{A}$ of $\clcl{a}{b}$, there is a finite subcover.
 ## Lemma
 For any $x\in[a,b):\exists y_{x}\in(x,b]:[x,y]$ can be covered by $\leq2$ elements of $\mathscr{A}$
 

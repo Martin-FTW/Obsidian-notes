@@ -17,7 +17,7 @@ We define the integral of $f$ as $$\int_{M}f\d\sigma=\int_{U}f\circ g\sqrt{ \det
 ### Line integral (k=1)
 Let $U\in\power(\mathbb{R}^{n})$ be a set.
 Let $C\in\power(U)$ be a curve.
-Let $\vec{\gamma}:[a,b]\to C$ be a regular bijective parameterization of $C=\gamma([a,b])$.
+Let $\vec{\gamma}:\clcl{a}{b}\to C$ be a regular bijective parameterization of $C=\gamma(\clcl{a}{b})$.
 #### Scalar field
 Let $f:U\to \mathbb{R}$.
 The integral

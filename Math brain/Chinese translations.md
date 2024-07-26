@@ -1,0 +1,106 @@
+# Chinese translations
+## Uncategorized
+- Real number 實數
+- Vector 向量
+- Function of n real variables n元實變函數
+- Partial differentiation 偏微分
+- Differentiable 可導/可微
+- Derivative 導數
+- Smooth function 光滑函数
+- Cusp 尖點
+- Singular point 奇點
+- Analytic function 解析函數
+- Elementary function 初等函數
+- Exponential function 指數函數
+- Logarithmic function 對數函數
+- Gradient 梯度
+- Curl 旋度
+- Divergence 散度
+- Parameter 參數
+- Primitive 原函数
+- Series 級數
+- Convergent 收斂
+- Divergent 發散
+## Trigonometry
+- Sine (sin) 正弦
+- Cosine (cos) 餘弦
+- Tangent (tan) 正切
+- Cotangent (cot) 余切
+- Secant (sec) 正割
+- Cosecant (csc) 餘割
+- Hyperbolic 雙曲
+## Logic
+- Let 設
+- When 當
+- Any/Arbitrary 任意
+- Given 給定
+- Exist 存在
+- Always/must have 恆有
+- Holds 成立
+- Sufficient 充分
+- Necessary 必要
+- Necessary and sufficient conditions 充要條件
+- Unique 唯一
+- Distinct 相異
+## Function
+- Independent variable 自變數
+- Dependent variable 因變數
+- Variable 函数
+- Image set 函數值集合
+- Image (point) 像點
+- Preimage (point) 原像
+- Mapping 映射
+- Transformation 變換
+- Single-valued function 單值函數
+- Multivalued function 多值函数
+- Inverse function 反函數
+## Complex
+- Complex number 複數
+- Real part 實部
+- Imaginary part 虛部
+- Modulus 模
+- Absolute value 絕對值
+- Argument 輻角
+- Principal value 主值
+- Complex plane 複平面
+- Polar form 三角表示式
+- Exponential form 指数表示式
+- Complex conjugate 共軛複數
+- Riemann sphere/Complex sphere 複球面
+- Point at infinity 無窮遠點
+- Extended complex plane 擴充複平面
+- Complex-variable function 複變函數
+- Branch cut 分支
+- Residue 留數
+## Topology
+- Neighbourhood 鄰域
+- Interior point 內點
+- Open set 開集
+- Closed set 閉集
+- Boundary point 邊界點
+- Bounded set 有界集
+- Unbounded set 無界集
+- Limit point 極限點
+- Accumulation point 聚點
+- Region 區域
+- Connected 連通
+- Continuous 連續
+- Curve 曲線
+- Simple curve 簡單曲線
+- Closed curve 單閉曲線
+- Regular curve 光滑曲線
+- Piecewise 逐段/按段
+- Simply-connected 單連通
+- Multiply-connected 多連通
+- Limit 極限
+- Approaching 趨於
+## Names
+- Euler 歐拉
+- Jordan 爾當
+- Cauchy 柯西
+- Riemann 黎曼
+- Goursat 古薩
+- Newton 牛頓
+- Leibniz 萊布尼茨
+- Laurent 洛朗
+- Rouche 儒歇

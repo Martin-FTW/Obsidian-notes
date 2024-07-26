@@ -1,4 +1,4 @@
-Book: [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
+ Book: [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
 # Definition (Second fundamental form)
 Let $S$ be a regular surface and $p\in S$.
 Define a bilinear form $\sff_{p}$ on $T_{p}S$ by $\sff_{p}(v,w)\innerp{S_{p}(v)}{w}{}$.

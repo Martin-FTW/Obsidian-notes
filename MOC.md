@@ -11,6 +11,7 @@
 - [[MATH3030]]
 - [[MATH3230]]
 ### Cheatsheets
+- [[Chinese translations]]
 - [[Image, Preimage]]
 - [[Injective, Surjective]]
 - [[Function Composition]]

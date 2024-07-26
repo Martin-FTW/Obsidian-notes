@@ -23,10 +23,10 @@ Let $X$ be a subspace of $\mathbb{R}$.
 Let $g,h:X\to \mathbb{R}$ be functions.
 Let $a\in \mathbb{R}$ be a limit point of $X$.
 Define the big $O$ notation by the following equivalent statements:
-- $O_{a}(g)=\set{f\in \mathbb{R}^{X}\given \exists M>0:\exists \delta>0:\forall x\in \oo{a-\delta}{a+\delta}\cap X\setminus \set{a}:\abs{f(x)}\leq M\abs{g(x)}}$
+- $O_{a}(g)=\set{f\in \mathbb{R}^{X}\given \exists M>0:\exists \delta>0:\forall x\in \opop{a-\delta}{a+\delta}\cap X\setminus \set{a}:\abs{f(x)}\leq M\abs{g(x)}}$
 
 Define the little $O$ notation by the following equivalent statements:
-- $o_{a}(g)=\set{f\in \mathbb{R}^{X}\given \forall \varepsilon>0:\exists \delta>0:\forall x\in \oo{a-\delta}{a+\delta}\cap X\setminus \set{a}:\abs{f(x)}\leq M\abs{g(x)}}$
+- $o_{a}(g)=\set{f\in \mathbb{R}^{X}\given \forall \varepsilon>0:\exists \delta>0:\forall x\in \opop{a-\delta}{a+\delta}\cap X\setminus \set{a}:\abs{f(x)}\leq M\abs{g(x)}}$
 
 ## Sequence
 Restrict $\tilde{X}$ to $\mathbb{Z}_{>0}\cup \set{\infty}$, $X$ to $\mathbb{Z}_{>0}$ and $a$ to $\infty$ (the only limit point of $\mathbb{Z}_{>0}$).
