@@ -14,7 +14,8 @@
 	{trigger: "vecf", replacement: "Let $F$ be a field and $V$ be a vector space over $F$.\n", options: "tA"},
 	{trigger: "vecK", replacement: "Let $K$ be a field and $V$ be a vector space over $K$.\n", options: "tA"},
 	{trigger: "vecr", replacement: "Let $V$ be a vector space over $\\mathbb{R}$.\n", options: "tA"},
-	{trigger: "topsp", replacement: "Let $(X,\\mathscr\{T\})$ be a [[Topological space]].\n", options: "tA"},
+	{trigger: "topsp", replacement: "Let $(X,\\mathscr\{T\})$ be a topological space.\n", options: "tA"},
+	{trigger: "\\(([UV]),\\\\p([sh])i", replacement: "([[0]],\\p[[1]]i)=([[0]],${0:x}^{1},\\dots,${0:x}^{${1:n}}$2", options: "rm", priority: 10},
 
     // Dashes
     // {trigger: "--", replacement: "–", options: "tA"},
@@ -26,7 +27,7 @@
     {trigger: ":=", replacement: "\\coloneqq", options: "mA", priority: 2},
     {trigger: "div", replacement: "\\divides", options: "mA", priority: 2},
     {trigger: "ast", replacement: "^*", options: "mA"},
-    {trigger: "(\\\\frac\\{.*?\\}\\{.*?\\})at", replacement: "\\left.[[0]]\\right\\vert_{$1}$2", options: "rmA"},
+    {trigger: "(\\\\frac(?!.*\\\\frac)\\{.*?\\}\\{.*?\\})at", replacement: "\\left.[[0]]\\right\\vert_{$1}$2", options: "rmA"},
 
     // Integer intervals
     {trigger: "]]", replacement: "\\ii{$0}{$1}$2", options: "mA"},
@@ -39,6 +40,7 @@
     // Override
     {trigger: "\\nu llity", replacement: "\\nullity", options: "mA"},
     {trigger: "lim", replacement: "\\lim", options: "mA", priority: 1},
+    {trigger: "\\supp", replacement: "\\supp", options: "mA", priority: 10},
     {trigger: "\\dot\{v\}s", replacement: "\\vdots", options: "mA"},
     {trigger: "\\cdots", replacement: "\\cdots", options: "mA", priority: 10},
     {trigger: "ddots", replacement: "\\ddots", options: "mA"},
@@ -57,6 +59,11 @@
     {trigger: "\\cotp", replacement: "T_{${0:p}}^*${1:M}$2", options: "mA", priority: 2},
     {trigger: "_{p}tau", replacement: "\\uptau", options: "mA", priority: 2},
     {trigger: "\\dome", replacement: "d\\omega", options: "mA", priority: 10},
+    {trigger: "\\cl cl", replacement: "\\clcl{$0}{$1}", options: "mA", priority: 10},
+    {trigger: "opcl", replacement: "\\opcl{$0}{$1}", options: "mA", priority: 10},
+    {trigger: "\\cl op", replacement: "\\clop{$0}{$1}", options: "mA", priority: 10},
+    {trigger: "_{p}tau", replacement: "\\uptau", options: "mA", priority: 10},
+    {trigger: "eq_{i}v", replacement: "\\equiv", options: "mA", priority: 10},
  
     //macros
     {trigger: "\\in er", replacement: "\\innerp\{$0\}\{$1\}\{\}$2", options: "mA"},
@@ -95,14 +102,14 @@
     {trigger: "ome", replacement: "\\omega", options: "mA"},
     {trigger: "@o", replacement: "\\omega", options: "mA"},
     {trigger: "@O", replacement: "\\Omega", options: "mA"},
-    {trigger: "([^\\\\])(${GREEK}|${SYMBOL}|${MACRO})", replacement: "[[0]]\\[[1]]", options: "rmA", description: "Add backslash before greek letters and symbols and macros"},
+    {trigger: "([^\\\\])(${GREEK}|${SYMBOL}|${MACRO})", replacement: "[[0]]\\[[1]]", options: "rmA", description: "Add backslash before greek letters and symbols and macros", priority: 5},
     {trigger: "([^\\\\])(${BRACK})", replacement: "[[0]]\\[[1]]{$0}$1", options: "rmA", description: "Add backslash before brackets, with 1 brack after"},
     {trigger: "\\\\(${BRACK}){\\*", replacement: "\\[[0]]*{", options: "rmA", description: "Add star"},
     {trigger: "([^\\\\])(${INTERVAL})", replacement: "[[0]]\\[[1]]{$0}{$1}$2", options: "rmA", description: "Add backslash before intervals, with 2 bracks after", priority: 2},
 
 
     // Insert space after greek letters and symbols, etc
-    {trigger: "\\\\(${GREEK}|${SYMBOL}|${SHORT_SYMBOL}|${MACRO})([A-Za-z])", replacement: "\\[[0]] [[1]]", options: "rmA", priority: 2},
+    {trigger: "\\\\(${GREEK}|${SYMBOL}|${SHORT_SYMBOL}|${MACRO})([A-Za-z])", replacement: "\\[[0]] [[1]]", options: "rmA", priority: 1},
     {trigger: "\\\\(${GREEK}|${SYMBOL}) sr", replacement: "\\[[0]]^{2}", options: "rmA"},
     {trigger: "\\\\(${GREEK}|${SYMBOL}) cb", replacement: "\\[[0]]^{3}", options: "rmA"},
     {trigger: "\\\\(${GREEK}|${SYMBOL}) rd", replacement: "\\[[0]]^{$0}$1", options: "rmA"},
@@ -140,7 +147,7 @@
     {trigger: "([a-zA-Z])\\.,", replacement: "\\mathbf{[[0]]}", options: "rmA"},
     {trigger: "([A-Za-z])([\\d])", replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto number subscript", priority: -2},
 //    {trigger: "([A-Za-z])([nij])\\2", replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
-    {trigger: "u([A-Za-z\\d])", replacement: "_{[[0]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
+    {trigger: " *u([A-Za-z\\d])", replacement: "_{[[0]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
     {trigger: "_\\{([A-Za-z\\d])\\}\\1", replacement: "^{[[0]]}", options: "rmA", description: "subscript to superscript", priority: -1},
     {trigger: "\\^\\{([A-Za-z\\d])\\}\\1", replacement: "_{[[0]]}", options: "rmA", description: "superscript to subscript", priority: -1},
 

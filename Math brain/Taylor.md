@@ -8,3 +8,4 @@ T_d(x)&=\sum_{k=0}^d \frac{g^{(k)}(0)}{k!}=\sum_{k=0}^d\frac{1}{k!}\sum_{i_1,\cd
 	&=f(a)+\sum_{i=1}^n \frac{\partial f}{\partial x_i}(a)(x_i-a_i)+\frac{1}{2!}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial^2 f}{\partial x_i \partial x_j}(a)(x_i-a_i)(x_j-a_j)+\cdots\\
 	&=f(a)+\nabla^T f\vert_a(x-a)+\frac{1}{2}(x-a)^THf\vert_a(x-a)+\cdots
 	\end{align*}$$
+If $f$ is $C^{d}$, then $$T_d(x)=\sum_{k=0}^d\sum_{\sum_{i=1}^n\limits k_i=k} \left(\prod_{i=1}^n\frac{1}{k_i!}\right)\frac{\partial^k f}{\partial x_1^{k_1}\cdots\partial x_n^{k_n}}(a)\prod_{i=1}^n(x_i-a_i)^{k_i}$$
