@@ -182,3 +182,9 @@
 - [[AItM D 14.6 (Maximal integral curve)]]
 - [[AItM T 14.7 (Smooth Picard-Lindelof on autonomous system)]]
 - [[AItM T 14.8 (Smooth Picard-Lindelof with smooth dependence on initial conditions)]]
+- [[AItM D 14.9 (Local flow)]]
+- [[AItM D (Lie bracket)]]
+- [[AItM P 14.10 (Lie bracket of smooth vector fields is smooth)]]
+- [[AItM Ex 14.11 (Lie bracket satisfies Jacobi identity)]]
+- [[AItM D 14.12 (Lie algebra)]]
+- 

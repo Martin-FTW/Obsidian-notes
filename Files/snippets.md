@@ -59,12 +59,15 @@
     {trigger: "\\cotp", replacement: "T_{${0:p}}^*${1:M}$2", options: "mA", priority: 2},
     {trigger: "_{p}tau", replacement: "\\uptau", options: "mA", priority: 2},
     {trigger: "\\dome", replacement: "d\\omega", options: "mA", priority: 10},
+    {trigger: "_{p}tau", replacement: "\\uptau", options: "mA", priority: 10},
+    {trigger: "eq_{i}v", replacement: "\\equiv", options: "mA", priority: 10},
+
+	//brackets
+	
     {trigger: "\\cl cl", replacement: "\\clcl{$0}{$1}", options: "mA", priority: 10},
     {trigger: "opcl", replacement: "\\opcl{$0}{$1}", options: "mA", priority: 10},
     {trigger: "\\cl op", replacement: "\\clop{$0}{$1}", options: "mA", priority: 10},
-    {trigger: "_{p}tau", replacement: "\\uptau", options: "mA", priority: 10},
-    {trigger: "eq_{i}v", replacement: "\\equiv", options: "mA", priority: 10},
- 
+    {trigger: "lie", replacement: "\\lie{$0}{$1}", options: "mA", priority: 10},
     //macros
     {trigger: "\\in er", replacement: "\\innerp\{$0\}\{$1\}\{\}$2", options: "mA"},
     {trigger: "wed", replacement: "\\wedge", options: "mA"},

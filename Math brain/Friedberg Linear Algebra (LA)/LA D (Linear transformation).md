@@ -1,7 +1,7 @@
 Book: [[Friedberg Linear Algebra (LA)]]
 # Definition (Linear transformation)
-Let $F$ be a [[Field]] and $V,W$ be [[Vector space]]s over $F$.
-Let $T:V\to W$ be a [[Function|Function]].
+Let $F$ be a field and $V,W$ be vector spaces over $F$.
+Let $T:V\to W$ be a function.
 We say $T$ is a linear transformation if the following statements hold:
 1. $\forall x,y\in V:T(x+y)=T(x)+T(y)$
 2. $\forall c\in F, x\in V:T(cx)=cT(x)$.
