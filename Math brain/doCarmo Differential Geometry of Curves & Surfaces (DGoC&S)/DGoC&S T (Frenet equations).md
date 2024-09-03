@@ -15,6 +15,24 @@ That is:
 - $T'(s)=k(s)N(s)$
 - $N'(s)=-k(s)T(s)-\uptau(s)B(s)$
 - $B'(s)=\uptau(s)N(s)$
+### Modern notation
+Let $\alpha:I\to \mathbb{R}^{3}$ be a curve pbal.
+Suppose $k(s)>0$ for all $s\in I$.
+Then as functions of $s\in I$, $\exists\uptau\in C^{\infty}(I)$ s.t. $$\begin{bmatrix}T'\\N'\\B'\end{bmatrix}=\begin{bmatrix}
+0 & k & 0 \\
+-k & 0 & \uptau \\
+0 & -\uptau & 0
+\end{bmatrix}\begin{bmatrix}
+T \\
+N \\
+B
+\end{bmatrix}$$
+That is:
+- $T'(s)=k(s)N(s)$
+- $N'(s)=-k(s)T(s)+\uptau(s)B(s)$
+- $B'(s)=-\uptau(s)N(s)$
+
+We call $\uptau(s)$ the torsion of $\alpha$ at $s$.
 #### Proof
 Since $\set{T(s),N(s),B(s)}$ is a basis, $\exists! A\in \mathcal{M}_{3}(\mathbb{R})$ s.t. $\begin{bmatrix}T'&N'&B'\end{bmatrix}\transpose=A\begin{bmatrix}T&N&B\end{bmatrix}\transpose$ by [[LA T 2.6 (Unique basis map)]] 
 Since $\set{T(s),N(s),B(s)}$ is an ONB $\forall s\in I$, we have
