@@ -187,4 +187,6 @@
 - [[AItM P 14.10 (Lie bracket of smooth vector fields is smooth)]]
 - [[AItM Ex 14.11 (Lie bracket satisfies Jacobi identity)]]
 - [[AItM D 14.12 (Lie algebra)]]
-- 
+- [[AItM D 14.13 (Derivation of a Lie algebra)]]
+- [[AItM D 14.14 (Related vector fields)]]
+- [[AItM Eg 14.15 (Pushforward by a diffeomorphism)]]
