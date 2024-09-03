@@ -12,3 +12,4 @@ We call
 - $\uptau(s)\coloneqq$ see [[DGoC&S T (Frenet equations)]]
   It follows that $\uptau(s)=\innerp{B(s)}{N'(s)}{}=\innerp{B'(s)}{N(s)}{}$ the torsion of $\alpha$ at $s$.
 
+test
