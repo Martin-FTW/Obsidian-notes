@@ -190,3 +190,5 @@
 - [[AItM D 14.13 (Derivation of a Lie algebra)]]
 - [[AItM D 14.14 (Related vector fields)]]
 - [[AItM Eg 14.15 (Pushforward by a diffeomorphism)]]
+- [[AItM P 14.16 (Characterization of related vector fields)]]
+- [[AItM P 14.17 (Lie bracket of related smooth vector fields is related)]]

@@ -9,6 +9,7 @@
 - [[MATH2068]]
 - [[MATH2078]]
 - [[MATH3030]]
+- [[MATH3060]]
 - [[MATH3230]]
 ### Cheatsheets
 - [[Chinese translations]]

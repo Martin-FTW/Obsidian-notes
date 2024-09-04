@@ -16,6 +16,10 @@
 	{trigger: "vecr", replacement: "Let $V$ be a vector space over $\\mathbb{R}$.\n", options: "tA"},
 	{trigger: "topsp", replacement: "Let $(X,\\mathscr\{T\})$ be a topological space.\n", options: "tA"},
 	{trigger: "\\(([UV]),\\\\p([sh])i", replacement: "([[0]],\\p[[1]]i)=([[0]],${0:x}^{1},\\dots,${0:x}^{${1:n}}$2", options: "rm", priority: 10},
+	{trigger: "fo_{r}ier", replacement: "a_{0}+\\sum_{n=1}^{\\infty} (a_{n}\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
+	{trigger: "a_{0}+\\sum_{n=1}^{\\infty} (a_{n}\\cos(nx)+b_{n}\\sin(nx))", replacement: "\\sum_{n=0}^{\\infty}(\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
+	{trigger: "\\sum_{n=0}^{\\infty}(\\cos(nx)+b_{n}\\sin(nx))", replacement: "\\sum(\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
+	{trigger: "\\sum(\\cos(nx)+b_{n}\\sin(nx))", replacement: "a_{0}+\\sum_{n=1}^{\\infty} (a_{n}\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
 
     // Dashes
     // {trigger: "--", replacement: "–", options: "tA"},
