@@ -123,6 +123,7 @@
 - [[AItM L 9.7 (Any regular level set of a smooth function can be translated to a regular zero set)]]
 - [[AItM T 9.8 (A nonempty regular level set of a smooth function on a manifold is a regular submanifold of codimension 1)]]
 - [[AItM T 9.9 (Regular set theorem)]]
+- [[AItM Eg 9.13 (Special linear group is a regular submanifold of the general linear group of codimension 1)]]
 ### 10 Categories, functors
 - [[AItM D 10.1 (Isomorphism)]]
 - [[AItM D 10.2 (Covariant functor)]]
@@ -134,6 +135,7 @@
 ### 11 Rank of smooth map
 - [[AItM T 11.1 (Constant rank theorem)]]
 - [[AItM T 11.2 (Constant-rank level set theorem)]]
+- [[AItM Eg 11.3 (Orthogonal group is a regular submanifold of general linear group)]]
 - [[AItM N (Local normal form)]]
 - [[AItM P 11.4 (Immersion and submersion at a point have constant rank near it)]]
 - [[AItM T 11.5 (Immersion theorem and submersion theorem)]]
@@ -142,6 +144,7 @@
 - [[AItM T 11.13 (An embedded submanifold is a regular submanifold)]]
 - [[AItM T 11.14 (A regular submanifold is an embedded submanifold by inclusion)]]
 - [[AItM T 11.15 (Restricting the codomain of a smooth map to a regular submanifold preserve smoothness)]]
+- [[AItM Eg 11.16 (Multiplication map of special linear group)]]
 ### 12 Tangent bundle
 - [[AItM D (Tangent bundle)]]
 - [[AItM L 12.1 (Basis for tangent bundle)]]
@@ -192,3 +195,12 @@
 - [[AItM Eg 14.15 (Pushforward by a diffeomorphism)]]
 - [[AItM P 14.16 (Characterization of related vector fields)]]
 - [[AItM P 14.17 (Lie bracket of related smooth vector fields is related)]]
+### 15 Lie group
+- [[AItM D 15.1 (Lie group, left multiplication, right multiplication)]]
+- [[AItM Ex 15.2 (Left multiplication of a Lie group is a diffeomorphism)]]
+- [[AItM D 15.3 (Lie group homomorphism)]]
+- [[AItM Eg 15.4 (General linear group is a Lie group)]]
+- [[AItM Eg 15.5 (Special linear group is a Lie group)]]
+- [[AItM Eg 15.6 (Orthogonal group is a Lie group)]]
+- [[AItM Eg 15.7 (Dimension of vector space of symmetric matrices)]]
+- [[AItM D 15.8 (Lie subgroup)]]
