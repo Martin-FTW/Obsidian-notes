@@ -2,8 +2,8 @@
   "cssTheme": "Minimal",
   "accentColor": "",
   "showViewHeader": true,
-  "baseFontSize": 16,
-  "baseFontSizeAction": true,
+  "baseFontSize": 20,
+  "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "tikz"
   ]

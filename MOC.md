@@ -4,7 +4,7 @@
 - [[Bartle Introduction to Real Analysis (ItRA)]]
 - [[Munkres Topology (MT)]]
 - [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
-- [[Tu An Introduction to Manifolds (AItM)]]
+- [[Tu An Introduction to Manifolds (AItM)]] 
 ### Courses
 - [[MATH2068]]
 - [[MATH2078]]
@@ -27,4 +27,4 @@
 - [[Bachmann–Landau notation]]
 - [[Taylor]]
 - [[Sup, inf, limsup, liminf.canvas|Sup, inf, limsup, liminf]]
-- [[Group order]]
+- [[Group order]] 

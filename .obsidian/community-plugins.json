@@ -3,9 +3,9 @@
   "templater-obsidian",
   "obsidian-tikzjax",
   "obsidian-latex",
-  "obsidian-latex-suite",
   "table-editor-obsidian",
   "homepage",
   "obsidian-git",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "obsidian-latex-suite"
 ]
