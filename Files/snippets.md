@@ -76,6 +76,7 @@
     {trigger: "\\in er", replacement: "\\innerp\{$0\}\{$1\}\{\}$2", options: "mA"},
     {trigger: "wed", replacement: "\\wedge", options: "mA"},
     {trigger: "pb", replacement: "\\pullback", options: "mA"},
+    {trigger: "pf", replacement: "\\pushforward", options: "mA"},
     
     
     // Greek letters
