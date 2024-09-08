@@ -24,7 +24,7 @@
 ### 15 Product topology
 - [[MT D (Product topology)]]
 - [[MT T 15.1 (Basis for product topology)]]
-- [[MT D (Projection)]]
+- [[MT D (Projection)]] 
 - [[MT T 15.2 (Projection preimage subbasis)]]
 ### 16 Subspace topology
 - [[MT D (Subspace topology)]]
