@@ -30,3 +30,4 @@
 - [[Group order]] 
 - [[ODE techniques]]
 - [[Smooth manifold coordinates]]
+- [[Regular curve]]

@@ -6,7 +6,7 @@ Let $\beta$ be a basis for $V$.
 Let $D$ be a diagonal matrix representation of $H$, i.e. $\psi_{\beta'}(H)$ where $\beta'$ is an ordered basis s.t. $\psi_{\beta'}(H)$ is diagonal.
 Define $\set{i_{k}}_{i=1}^{p}=\set{i\given d_{i}>0},\set{j_{k}}_{k=1}^{q}=\set{j\given d_{j}<0}$, where $D=\diag(d_{1},\dots,d_{n})$.
 We call:
-- $\psi_{\beta}(H)$ the rank of $H$
+- $\rank\psi_{\beta}(H)$ the rank of $H$
 - $p$ the index of $H$
 - $p-q$ the signature of $H$.
 - the above $3$ values the invariants of $H$.
