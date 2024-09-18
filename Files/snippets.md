@@ -321,7 +321,7 @@
     // Brackets
     {trigger: "avg", replacement: "\\langle $0 \\rangle $1", options: "mA"},
     {trigger: "norm", replacement: "\\norm\{$0\}", options: "mA", priority: 1},
-    {trigger: "mod", replacement: "\\abs\{$0\}", options: "mA"},
+    {trigger: "mod", replacement: "\\mod", options: "mA"},
     {trigger: "(", replacement: "(${VISUAL})", options: "mA"},
     {trigger: "[", replacement: "[${VISUAL}]", options: "mA"},
     {trigger: "{", replacement: "{${VISUAL}}", options: "mA"},

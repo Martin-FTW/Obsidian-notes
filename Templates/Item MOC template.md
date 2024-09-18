@@ -10,15 +10,17 @@ const names = new Map([
 	["T", "Theorem"],
 	["L", "Lemma"],
 	["C", "Corollary"],
+	["Cl", "Claim"],
 	["R", "Remark"],
 	["Eg", "Example"],
 	["Ex", "Exercise"],
+	["Ep", "Exposition"],
 	["Pb", "Problem"],
 	["J", "Joke"],
 	["A", "Axiom"],
 	["N", "Notation"],
 ])
-const type = await tp.system.suggester((item) => item=="Pb" ? "_"+item+": "+names.get(item) : item+": "+names.get(item), ["D", "P", "T", "L", "C", "R", "Eg", "Ex", "Pb", "J", "A", "N"]);
+const type = await tp.system.suggester((item) => ["Pb", "Cl"].includes(item) ? "_"+item+": "+names.get(item) : item+": "+names.get(item), Array.from(names.keys()));
 
 // Find chapter and section number
 const chapter = content.findLast((element)=>element.startsWith("## ")).split(" ")[1];
