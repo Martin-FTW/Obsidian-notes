@@ -2,8 +2,8 @@ Book: [[Tu An Introduction to Manifolds (AItM)]]
 # Definition (Left-invariant vector field)
 Let $G$ be a Lie group and $X$ be a vector field on $G$.
 Note that for each $g\in G$, $\ell_{g}:G\to G$ is a diffeomorphism.
-Hence the pushforward $\ell_{g*}X$ of $X$ is well defined as a vector field on $G$ by [[AItM Eg 14.15 (Pushforward by a diffeomorphism)]].
-We say that $X$ is left-invariant if $\forall g\in G:\ell_{g*}X=X$.
+Hence the pushforward $\ell_{g}\pushforward X$ of $X$ is well defined as a vector field on $G$ by [[AItM Eg 14.15 (Pushforward by a diffeomorphism)]].
+We say that $X$ is left-invariant if $\forall g\in G:\ell_{g}\pushforward{} X=X$.
 That is ,$\forall g,h\in G:\ell_{g}\pushforward(X_{h})=X_{gh}$, or $X$ is $\ell_{g}$-related to $X$ for all $g\in G$.
 
 In this case, $X$ is completely determined by $X_{e}$ since $X_{g}=\ell_{g}\pushforward(X_{e})$.

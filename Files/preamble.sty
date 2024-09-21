@@ -1,4 +1,4 @@
-\usepackage{amsmath}
+\require{ams}
 \require{mathtools}
 \newcommand{\d}{\,\mathrm{d}}
 \newcommand{\ot}{\leftarrow}
@@ -7,7 +7,8 @@
 \newcommand{\transpose}{{}^\top}
 \newcommand{\adjoint}{{}^*}
 \newcommand{\pullback}{{}^*}
-\newcommand{\pushforward}{{}_*}
+\newcommand{\commavalue}{}
+\newcommand{\pushforward}[1][]{{}_{* #1}}
 \newcommand{\dual}{^\vee}
 \newcommand{\iso}{\simeq}
 \newcommand{\diffeo}{\cong}

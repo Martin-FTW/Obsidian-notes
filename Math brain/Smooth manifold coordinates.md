@@ -1,4 +1,4 @@
-# Smooth manifold coordinates
+d+# Smooth manifold coordinates
 Let $N,M$ be a manifolds
 Let $p\in N$, $F:N\to M$ and $q=F(p)\in M$.
 Let $(U,\phi)=(U,x^{1},\dots,x^{n}),(\tilde{U},\tilde{\phi})=(U,\tilde{x}^{1},\dots,\tilde{x}^{n})$ be charts about $p$.

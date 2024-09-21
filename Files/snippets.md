@@ -27,6 +27,7 @@
     // {trigger: "—-", replacement: "---", options: "tA"},
     //Symbols
     {trigger: "++", replacement: "\\concat", options: "mA"},
+    {trigger: "lr", replacement: "\\leftrightarrow", options: "m"},
     {trigger: "cdot", replacement: "\\cdot", options: "mA", priority: 2},
     {trigger: ":=", replacement: "\\coloneqq", options: "mA", priority: 2},
     {trigger: "div", replacement: "\\divides", options: "mA", priority: 2},
@@ -77,6 +78,7 @@
     {trigger: "wed", replacement: "\\wedge", options: "mA"},
     {trigger: "pb", replacement: "\\pullback", options: "mA"},
     {trigger: "pf", replacement: "\\pushforward", options: "mA"},
+    {trigger: "\\\\pushforward(,.)", replacement: "\\pushforward\[[[0]]\]", options: "mAr"},
     
     
     // Greek letters

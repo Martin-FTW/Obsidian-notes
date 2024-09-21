@@ -5,6 +5,7 @@
   "baseFontSize": 20,
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
-    "tikz"
+    "tikz",
+    "scroll"
   ]
 }
