@@ -7,3 +7,4 @@ We call $V$ a *Lie algebra over $K$* if $\forall a,b\in K;X,Y,Z\in V:$
 2. Anticommutivity: $\lie{Y}{X}=-\lie{X}{Y}$
 3. Jacobi identity: $\displaystyle\sum_{cyc}\lie{X}{\lie{Y}{Z}}=0$
 Note that the bracket of a Lie algebra is not neccesarily associative
+A Lie algebra homomorphism is a linear map $T:V\to W$ between Lie algebras that satisfies $T\lie{X}{Y}=\lie{TX}{TY}$.

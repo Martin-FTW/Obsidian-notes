@@ -1,5 +1,5 @@
 Book: [[Tu An Introduction to Manifolds (AItM)]]
-# Proposition 16.11 (Lie bracket in terms of matrix multiplcation in general linear group)
+# Proposition 16.11 (Lie bracket in terms of matrix multiplication in general linear group)
 Let $A,B\in T_{I}\GL(n,\mathbb{R})$.
 Write $\displaystyle A=\sum a_{ij}\left.\frac{ \partial }{ \partial x_{ij} }\right\vert_{I},B=\sum b_{ij}\left.\frac{ \partial }{ \partial x_{ij} }\right\vert_{I}$.
 Now if $\displaystyle \lie{A}{B}=\lie{\tilde{A}}{\tilde{B}}_{I}=\sum c_{ij}\left.\frac{ \partial }{ \partial x_{ij} }\right\vert_{I}$, then we have $c_{ij}=\sum_{k}a_{ik}b_{kj}-b_{ik}a_{kj}$.

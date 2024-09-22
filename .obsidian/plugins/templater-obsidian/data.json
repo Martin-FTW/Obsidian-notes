@@ -23,7 +23,8 @@
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "Templates/Item MOC template.md",
-    "Templates/Tikz diagram.md"
+    "Templates/Tikz diagram.md",
+    "Templates/Equal sign next line.md"
   ],
   "startup_templates": [
     ""

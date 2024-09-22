@@ -5,8 +5,8 @@ The tangent bundle of $M$ is the disjoint union of all tangent spaces of $M$, i.
 The natural projection map $\pi:TM\to M$ is defined by $\pi(v)=p$ if $v\in T_{p}M$.
 Now let $(U,\phi)=(U,x^{1},\dots,x^{n})$ be a coordinate chart on $M$.
 Then $\displaystyle TU=\coprod_{p\in U}T_{p}U=\coprod_{p\in U}T_{p}M=\pi ^{-1}(U)$
-Since $\displaystyle \set*{ \left.\frac{ \partial }{ \partial x^{i} }\right\vert_{p}}$ is a basis for $T_{p}M$, each $v\in T_{p}M$ uniquely determines a linear combination $\displaystyle v=\sum_{i=1}^{n}c^{i} \left.\frac{ \partial }{ \partial x^{i} }\right\vert_{p}$, where $c^{i}(p)=dx_{p}^{i}(v)$.
-Let $\bar{x}^{i}=x^{i}\circ \pi$ and define $\tilde{\phi}:TU\to \phi(U)\times \mathbb{R}^{n}$ by $v\mapsto (x^{1}(p),\dots,x^{n}(p),c^{1}(v),\dots,c^{n}(v))=(\bar{x}^{1},\dots,\bar{x}^{n},c^{1},\dots,c^{n})(v)$
+Since $\displaystyle \set*{ \left.\frac{ \partial }{ \partial x^{i} }\right\vert_{p}}$ is a basis for $T_{p}M$, each $v\in T_{p}M$ uniquely determines a linear combination $\displaystyle v=\sum_{i=1}^{n}c^{i} \left.\frac{ \partial }{ \partial x^{i} }\right\vert_{p}$, where $c^{i}(v)=dx_{p}^{i}(v)$.
+Let $\bar{x}^{i}=x^{i}\circ \pi=\pi \pullback x^{i}$ and define $\tilde{\phi}:TU\to \phi(U)\times \mathbb{R}^{n}$ by $v\mapsto (x^{1}(p),\dots,x^{n}(p),c^{1}(v),\dots,c^{n}(v))=(\bar{x}^{1},\dots,\bar{x}^{n},c^{1},\dots,c^{n})(v)$
 Thus $\displaystyle (\phi(p),c^{1},\dots,c^{n})\mapsto \sum c^{i}\left.\frac{ \partial }{ \partial x^{i} }\right\vert_{p}$ is an inverse of $\tilde{\phi}$.
 Give $\phi(U)\times \mathbb{R}^{n}$ the subspace topology of the standard topology in $\mathbb{R}^{2n}$, then the bijection $\tilde{\phi}$ can transfer the topology of $\phi(U)\times \mathbb{R}^{n}$ to $TU$ by defining $A\subseteq TU$ is open if $\tilde{\phi}(A)$ is open in $\phi(U)\times \mathbb{R}^{n}$.
 Note that if $V\subseteq U$ is open, the subspace topology on $TV\subseteq TU$ is the same as the topology induced by the bijection $\tilde{\phi}|_{TV}$

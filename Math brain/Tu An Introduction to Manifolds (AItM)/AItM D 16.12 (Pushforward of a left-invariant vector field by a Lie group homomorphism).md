@@ -3,7 +3,7 @@ Book: [[Tu An Introduction to Manifolds (AItM)]]
 Let $F:H\to G$ be a Lie group homomorphism.
 Define $F\pushforward:L(H)\to L(G)$ by $F\pushforward(\tilde{A})=(F\pushforward[,e]A)\tilde{\ }$ for all $A\in T_{e}H$.
 We call $F\pushforward(\tilde{A})$ the pushforward of $\tilde{A}$ by $F$.
-This pushforward is induced by the natural pushforward of the differential of $F$ in $T_{e}H$, by mapping according to the diagram
+This pushforward is induced by the natural pushforward of the differential of $F$ in $T_{e}H$ and the isomorphism $\varphi:T_{e}G\iso L(G)$ in [[AItM D (Left-invariant vector field)]], by mapping according to the diagram
 ```tikz
 \usepackage{tikz-cd}
 \usepackage{amsmath}

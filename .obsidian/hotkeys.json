@@ -66,5 +66,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "templater-obsidian:Templates/Equal sign next line.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }
