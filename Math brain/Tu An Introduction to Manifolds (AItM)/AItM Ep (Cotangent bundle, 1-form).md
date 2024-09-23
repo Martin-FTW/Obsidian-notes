@@ -16,3 +16,9 @@ We also have $\pi:T^*M\to M$ is a vector bundle of rank $n$ over $M$.
 Note that every chart $(U,\phi)=(U,x^{1},\dots,x^{n})$ on $M$ induces a chart $(\pi ^{-1}U,\tilde{\phi})=(\phi ^{-1}U,\pi \pullback x^{1},\dots,\pi \pullback x^{n},c_{1},\dots,c_{n})$ on $T^* M$.
 
 Similar to [[AItM D 12.7 (Vector field on manifold)]], a covector field, or a $1$-form, is a section of $T^*M$, i.e. a map $\omega:M\to T^*M$ that satisfies $\pi \circ \omega=\id_{M}$.
+
+With:
+- The sum $\omega+\uptau$ is defined pointwise: $(\omega+\uptau)_{p}=\omega_{p}+\uptau_{p}$, i.e. $(\omega+\uptau)_{p}(X_{p})=\omega_{p}(X_{p})+\uptau_{p}(X_{p})$ with the $+$ on $T_{p}M$.
+- The scalar product $g\omega$ is defined pointwise: $(g\omega)_{p}=g(p)\omega_{p}$, i.e. $(g\omega)_{p}(X_{p})=g(p)\omega_{p}(X_{p})$
+
+ The set of all smooth $1$-forms $\Omega^{1}(M)$ forms a module over the ring $C^{\infty}(M)$.
