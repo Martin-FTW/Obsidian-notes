@@ -1,3 +1,4 @@
+
 Book: [[Tu An Introduction to Manifolds (AItM)]]
 # Definition 3.10 (Symmetric, alternating tensor, multicovector)
 Let $V$ be a vector space over $\mathbb{R}$.

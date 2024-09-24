@@ -1,7 +1,7 @@
 Book: [[Tu An Introduction to Manifolds (AItM)]]
 # Proposition 17.8 (Linearity of a 1-form over functions and on the vector space of smooth vector fields)
 Let $M$ be a manifold and $\omega$ be a $1$-form.
-Use the notation in [[AItM Ep (Induced linear map from 1-form on vector fields)]].
+Use the notation in [[AItM Ep (Induced linear map on vector fields by 1-form)]].
 Then $\forall$ vector field $X$ on $M$ and function $f:M\to \mathbb{R}$, we have $\omega(fX)=f\omega(X)$, i.e. $\omega(fX)_{p}=f(p)\omega(X)_{p}$.
 
 Further suppose that $\omega$ is smooth.

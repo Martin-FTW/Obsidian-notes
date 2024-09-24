@@ -20,6 +20,7 @@
 	{trigger: "a_{0}+\\sum_{n=1}^{\\infty} (a_{n}\\cos(nx)+b_{n}\\sin(nx))", replacement: "\\sum_{n=0}^{\\infty}(\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
 	{trigger: "\\sum_{n=0}^{\\infty}(\\cos(nx)+b_{n}\\sin(nx))", replacement: "\\sum(\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
 	{trigger: "\\sum(\\cos(nx)+b_{n}\\sin(nx))", replacement: "a_{0}+\\sum_{n=1}^{\\infty} (a_{n}\\cos(nx)+b_{n}\\sin(nx))", options: "m", priority: 10},
+    {trigger: "ext", replacement: "\\bigwedge^{${1:k}}($2)", options: "mA"},
 
     // Dashes
     // {trigger: "--", replacement: "–", options: "tA"},

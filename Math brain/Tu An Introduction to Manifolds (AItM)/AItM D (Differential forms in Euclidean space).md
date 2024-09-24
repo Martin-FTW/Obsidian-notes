@@ -1,5 +1,5 @@
 Book: [[Tu An Introduction to Manifolds (AItM)]]
-# Definition (Differential form)
+# Definition (Differential forms in Euclidean space)
 Let $U\subseteq \mathbb{R}^{n}$ be open.
 Let $\displaystyle \omega:U\to \coprod_{p\in U}A_{k}(T_{p}\mathbb{R}^{n})$ be a function denoted by $\omega(p)=\omega _{p}$.
 We call $\omega$ a $k$-form if $\forall p\in U:\omega _{p}\in A_{k}(T_{p}\mathbb{R}^{n})$.
