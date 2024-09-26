@@ -263,4 +263,8 @@
 - [[AItM Eg 18.2 (Local basis for multicovectors and differential forms)]]
 - [[AItM P 18.3 (Wedge of differentials in local coordinates)]]
 - [[AItM C 18.4 (1-form and top forms in local coordinates)]]
-e i o
+- [[AItM Ep (Exterior power of cotangent bundle)]]
+- [[AItM L 18.6 (Smoothness of k-form on a chart)]]
+- [[AItM P 18.7 (Characterization of a smooth k-form)]]
+- [[AItM P 18.8 (Smooth extension of a form)]]
+- [[AItM Ep (Pullback of k-form)]]
