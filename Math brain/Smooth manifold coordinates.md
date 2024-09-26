@@ -1,7 +1,7 @@
 d+# Smooth manifold coordinates
 Let $N,M$ be a manifolds
 Let $p\in N$, $F:N\to M$ and $q=F(p)\in M$.
-Let $(U,\phi)=(U,x^{1},\dots,x^{n}),(\tilde{U},\tilde{\phi})=(U,\tilde{x}^{1},\dots,\tilde{x}^{n})$ be charts about $p$.
+Let $(U,\phi)=(U,x^{1},\dots,x^{n}),(\tilde{U},\tilde{\phi})=(\tilde{U},\tilde{x}^{1},\dots,\tilde{x}^{n})$ be charts about $p$.
 Let $(V,\psi)=(V,y^{1},\dots,y^{m})$ be a chart about $q$.
 
 1. Let $v\in T_{p}N,v^{i}=dx_{p}^{i}(v),\tilde{v}^{i}=d\tilde{x}_{p}^{i}(v)$.  
@@ -23,3 +23,6 @@ Let $(V,\psi)=(V,y^{1},\dots,y^{m})$ be a chart about $q$.
 - $\displaystyle \tilde{g}_{k\ell}=g_{ij}\frac{ \partial x^{i} }{ \partial \tilde{x}^{k} }(p)\frac{ \partial x^{j} }{ \partial \tilde{x}^{\ell} }(p)$
 5.  Let $T$ be a tensor at $p$ 
 - $\begin{align}\displaystyle \tilde{T}^{i_{1}'\dots i_{r}'}_{j_{1}'\dots j_{s}'}&=\sum_{i_{1},\dots,i_{r},j_{1},\dots,j_{s}=1}^{n} T^{i_{1}\dots i_{r}}_{j_{1}\dots j_{s}}\prod_{k=1}^{r} \frac{ \partial \tilde{x}^{i_{k}'} }{ \partial x^{i_{k}} }(p)\prod_{k=1}^{s} \frac{ \partial x^{j_{k}} }{ \partial \tilde{x}^{j_{k}'} }(p)\\&=T^{i_{1}\dots i_{r}}_{j_{1}\dots j_{s}}\frac{ \partial \tilde{x}^{i_{1}'} }{ \partial x^{i_{1}} }\cdots\frac{ \partial \tilde{x}^{i_{r}'} }{ \partial x^{i_{r}} }\frac{ \partial x^{j_{1}} }{ \partial \tilde{x}^{j_{1}'} }\cdots \frac{ \partial x^{j_{s}} }{ \partial \tilde{x}^{j_{s}'} }\end{align}$
+6. Let $f^{1},\dots,f^{k}\in C^{\infty}(U)$
+- $\displaystyle df^{1}\wedge \cdots\wedge df^{k}=\sum_{(i_{1},\dots,i_{k})\in\mathcal{J}_{k,n}}\frac{ \partial (f^{1},\dots,f^{k}) }{ \partial (x^{i_{1}},\dots,x^{i_{k}}) }dx^{i_{1}}\wedge \cdots\wedge dx^{i_{k}}$
+- $\displaystyle d\tilde{x}^{J}=\sum_{I\in \mathcal{J}_{k,n}}\frac{ \partial (\tilde{x}^{j_{1}},\dots,\tilde{x}^{j_{k}}) }{ \partial (x^{i_{1}},\dots,x^{i_{k}}) }dx^{I}$

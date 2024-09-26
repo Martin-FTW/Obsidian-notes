@@ -262,3 +262,4 @@
 - [[AItM P 18.1 (Multilinearity of a form over functions)]]
 - [[AItM Eg 18.2 (Local basis for multicovectors and differential forms)]]
 - [[AItM P 18.3 (Wedge of differentials in local coordinates)]]
+- [[AItM C 18.4 (1-form and top forms in local coordinates)]]
