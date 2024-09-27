@@ -5,6 +5,7 @@
 - [[Munkres Topology (MT)]]
 - [[doCarmo Differential Geometry of Curves & Surfaces (DGoC&S)]]
 - [[Tu An Introduction to Manifolds (AItM)]] 
+- [[Folland Real Analysis Modern Techniques and Their Application (RAMT&TA)]]
 ### Courses
 - [[MATH2068]]
 - [[MATH2078]]

@@ -267,4 +267,6 @@
 - [[AItM L 18.6 (Smoothness of k-form on a chart)]]
 - [[AItM P 18.7 (Characterization of a smooth k-form)]]
 - [[AItM P 18.8 (Smooth extension of a form)]]
-- [[AItM Ep (Pullback of k-form)]]
+- [[AItM Ep (Pullback of k-covectors and k-forms)]]
+- [[AItM P 18.9 (Linearity of the pullback)]]
+- [[AItM D (Wedge product on differential forms)]]

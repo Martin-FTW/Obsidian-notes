@@ -213,6 +213,7 @@
     {trigger: "!>", replacement: "\\mapsto", options: "mA"},
     {trigger: "invs", replacement: "^{-1}", options: "mA"},
     {trigger: "sm", replacement: "\\setminus", options: "mA"},
+    {trigger: "comp", replacement: "^\\complement", options: "mA"},
     {trigger: "||", replacement: "\\mid", options: "mA"},
     {trigger: "inn", replacement: "\\in", options: "mA"},
     {trigger: "sub", replacement: "\\subseteq", options: "mA"},
