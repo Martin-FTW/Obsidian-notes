@@ -270,3 +270,7 @@
 - [[AItM Ep (Pullback of k-covectors and k-forms)]]
 - [[AItM P 18.9 (Linearity of the pullback)]]
 - [[AItM D (Wedge product on differential forms)]]
+- [[AItM P 18.10 (Wedge product of smooth forms is smooth)]]
+- [[AItM P 18.11 (Pullback of wedge product)]]
+- [[AItM Ep (Differential forms on a circle)]]
+- [[AItM P 18.12 (smooth k-forms on circle are identified with smooth periodic k-forms on reals)]]

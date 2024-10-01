@@ -32,7 +32,7 @@
     {trigger: "cdot", replacement: "\\cdot", options: "mA", priority: 2},
     {trigger: ":=", replacement: "\\coloneqq", options: "mA", priority: 2},
     {trigger: "div", replacement: "\\divides", options: "mA", priority: 2},
-    {trigger: "ast", replacement: "^*", options: "mA"},
+    {trigger: "\\s+ast", replacement: "^*", options: "rmA"},
     {trigger: "(\\\\frac(?!.*\\\\frac)\\{.*?\\}\\{.*?\\})at", replacement: "\\left.[[0]]\\right\\vert_{$1}$2", options: "rmA", priority: 2},
     {trigger: "at(.)", replacement: "\\vert_{[[0]]}$1", options: "rm", priority: 1},
 
