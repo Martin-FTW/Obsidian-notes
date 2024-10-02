@@ -273,4 +273,12 @@
 - [[AItM P 18.10 (Wedge product of smooth forms is smooth)]]
 - [[AItM P 18.11 (Pullback of wedge product)]]
 - [[AItM Ep (Differential forms on a circle)]]
-- [[AItM P 18.12 (smooth k-forms on circle are identified with smooth periodic k-forms on reals)]]
+- [[AItM P 18.12 (Smooth k-forms on circle are identified with smooth periodic k-forms on reals)]]
+- [[AItM D (Left-invariant differential forms)]]
+- [[AItM Eg 18.13 (A left-invariant 1-form on circle)]]
+- [[AItM P 18.14 (Every left-invariant form is smooth)]]
+### 19 Exterior derivative
+- [[AItM D 19.1 (Exterior derivative)]]
+- [[AItM Ep (Existence of exterior derivative locally on coordinate charts)]]
+- [[AItM D 19.2 (Local operator)]]
+- [[AItM P 19.3 (Any antiderivation on the graded algebra of differential forms is a local operator)]]

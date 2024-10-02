@@ -110,9 +110,15 @@
 - [[MT C 24.2 (All intervals and rays are connected in real line)]]
 - [[MT T 24.3 (Intermediate value theorem)]]
 - [[MT D (Path, path-connectedness)]]
-- [[MT T 24.4]]
 ### 25 Components, local connectedness
-- skipped
+- [[MT D (Connected components)]]
+- [[MT T 25.1 (Components are connected disjoint subspaces that covers the space such that each nonempty connected subspace intersects only one component)]]
+- [[MT D (Path components)]]
+- [[MT T 25.2 (Path components are path-connected disjoint subspaces that covers the space such that each nonempty path-connected subspace intersects only one path component)]]
+- [[MT D (Local connectedness, local path-connectedness)]]
+- [[MT T 25.3 (Locally connected iff every component of every open set is open)]]
+- [[MT T 25.4 (Locally path-connected iff every path copmonent of every open set is open)]]
+- [[MT T 25.5 (Every path component lies in a component, equality if locally path connected)]]
 ### 26 Compactness
 - [[MT D (Covering)]]
 - [[MT D (Compactness)]]
@@ -143,7 +149,12 @@
 - [[MT D (Sequentially compact)]]
 - [[MT T 28.2 (Equivalent compactness in metrizable space)]]
 ### 29 Local compactness
-- skipped
+- [[MT D (Local compactness)]]
+- [[MT T 29.1 (Characterization of locally compact Hausdorff spaces as the unique subspace of compact Hausdorff)]]
+- [[MT D (Compactification, one-point compactification)]]
+- [[MT T 29.2 (Topological-local compactness implies local compactness, converse if Hausdorff)]]
+- [[MT C 29.3 (Open subspaces and closed subspaces in locally compact Hausdorff space is locally compact)]]
+- [[MT C 29.4 (Homeomorphic to open subspace of a compact Hausdorff space iff locally compact Hausdorff)]]
 ### 30 Countability axioms
 - [[MT D (Local basis, first countability axiom)]]
 - [[MT T 30.1]]
@@ -167,3 +178,20 @@
 ### 35 Tietze Extention Theorem
 ### 36 Imbedding of manifolds
 - [[MT D (Manifold)]]
+### 39 Local finiteness
+- [[MT D (Local finiteness)]]
+- [[MT L 39.1 (Subcollection and closure of locally finite collections)]]
+- [[MT D (Countably locally finite, sigma-locally finite)]]
+- [[MT D (Refinement)]]
+- [[MT L 39.2 (Every open covering of a metrizable space has a countably locally finite open refinement)]]
+### 40
+### 41 Paracompactness
+- [[MT D (Paracompact)]]
+- [[MT T 41.1 (Every paracompact Hausdorff space is normal)]]
+- [[MT T 41.2 (Every closed subspace of a paracompact space is paracompact)]]
+- [[MT L 41.3 (Characterization of paracompactness in regular space)]] (hard)
+- [[MT T 41.4 (Every metrizable space is paracompact)]]
+- [[MT T 41.5 (Every regular Lindelof space is paracompact)]]
+- [[MT D (Partition of unity)]]
+- [[MT L 41.6 (Every open covering of a paracompact Hausdorff space has a locally finite open covering whose closure is a precise refinement)]]
+- [[MT T 41.7 (Every open covering of a paracompact Hausdorff space admits a partition of unity)]]
