@@ -10,4 +10,4 @@ Choose a smooth bump function $f$ at $p$ supported in $U$.
 Then $f\equiv 1$ in a nbhd $V$ of $p$ in $U$.
 Thus now we have $f\omega \equiv 0$ on $M$.
 Now $0=D(0)=D(f\omega)=(Df)\wedge \omega+(-1)^{0}f\wedge(D\omega)$.
-Evaluating both sides at $p$ gives $0=$
+Evaluating both sides at $p$ gives $0=(Df)_{p}\wedge \omega_{p}+f(p)\wedge (D\omega)_{p}=(D\omega)_{p}$.

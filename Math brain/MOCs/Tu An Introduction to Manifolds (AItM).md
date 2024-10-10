@@ -282,3 +282,4 @@
 - [[AItM Ep (Existence of exterior derivative locally on coordinate charts)]]
 - [[AItM D 19.2 (Local operator)]]
 - [[AItM P 19.3 (Any antiderivation on the graded algebra of differential forms is a local operator)]]
+- [[AItM Ep (Existence of an exterior derivative independent of charts)]]
