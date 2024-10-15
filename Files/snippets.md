@@ -77,6 +77,7 @@
     {trigger: "lie", replacement: "\\lie{$0}{$1}", options: "mA", priority: 10},
     //macros
     {trigger: "\\in er", replacement: "\\innerp\{$0\}\{$1\}\{\}$2", options: "mA"},
+    {trigger: "ind", replacement: "\\ind\{$0\}$1", options: "mA"},
     {trigger: "wed", replacement: "\\wedge", options: "mA"},
     {trigger: "pb", replacement: "\\pullback", options: "mA"},
     {trigger: "pf", replacement: "\\pushforward", options: "mA"},

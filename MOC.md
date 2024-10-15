@@ -30,5 +30,6 @@
 - [[Sup, inf, limsup, liminf.canvas|Sup, inf, limsup, liminf]]
 - [[Group order]] 
 - [[ODE techniques]]
+- [[ODE theorems]]
 - [[Smooth manifold coordinates]]
 - [[Regular curve]]
