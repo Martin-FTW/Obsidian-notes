@@ -13,23 +13,33 @@
 - [[MATH3060]]
 - [[MATH3230]]
 ### Cheatsheets
-- [[Chinese translations]]
+##### ODE
+- [[ODE techniques]]
+- [[ODE theorems]]
+##### Set theory
 - [[Image, Preimage]]
 - [[Injective, Surjective]]
 - [[Function Composition]]
-- [[Derivatives]]
+##### Calculus
+- [[Frechet derivatives]]
 - [[Chain Rule]]
 - [[C1 implies differentiable]]
 - [[Inverse function theorem]]
 - [[Implicit function theorem]]
 - [[Integrals]]
+- [[Taylor]]
+##### Analysis
+- [[Sup, inf, limsup, liminf.canvas|Sup, inf, limsup, liminf]]
+- [[Bachmann–Landau notation]]
+##### Linear algebra
 - [[Determinant]]
 - [[Diagonalizability.canvas|Diagonalizability]]
-- [[Bachmann–Landau notation]]
-- [[Taylor]]
-- [[Sup, inf, limsup, liminf.canvas|Sup, inf, limsup, liminf]]
-- [[Group order]] 
-- [[ODE techniques]]
-- [[ODE theorems]]
+##### Algebra
+- [[Group order]]
+- [[Group definitions]]
+- [[Group classifications]]
+##### Geometry
 - [[Smooth manifold coordinates]]
 - [[Regular curve]]
+##### Misc
+- [[Chinese translations]]
