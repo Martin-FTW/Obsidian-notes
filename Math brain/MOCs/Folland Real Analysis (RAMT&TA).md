@@ -56,4 +56,9 @@
 - [[RAMT&TA P 2.13 (Simple integration is linear, monotone, and is a measuore)]]
 - [[RAMT&TA D (Integration of nonnegative functions w.r.t a measure)]]
 - [[RAMT&TA T 2.14 (Monotone Convergence Theorem)]]
-
+- [[RAMT&TA T 2.15 (Additivity of measure integral)]]
+- [[RAMT&TA P 2.16 (Integral is zero iff zero almost everywhere)]]
+- [[RAMT&TA C 2.17 (Monotone Convergence Theorem almost everywhere)]]?????????
+- [[RAMT&TA L 2.18 (Fatou's Lemma)]]
+- [[RAMT&TA C 2.19]]
+- [[RAMT&TA P 2.20 (Finite integral means finite almost everywhere)]]

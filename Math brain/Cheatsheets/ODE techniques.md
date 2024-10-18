@@ -37,7 +37,7 @@ Then we have the first order linear ODE in $z$: $z'=(1-n)y^{-n}y'=(1-n)y^{-n}(-p
 	It suffices to find fundamental set by Wronskian
 ### Abel $(y_{1}\implies y_{2})$
 Given $y_{1}$ solves $y''+py'+qy=0$, find $y_{2}$:
-Take one $y_{1}y_{2}'-y_{1}'y_{2}=W(y_{1},y_{2})(t)=C_{0}e^{\int p}\implies$ first order linear ODE 
+Take one $y_{1}y_{2}'-y_{1}'y_{2}=W(y_{1},y_{2})(t)=C_{0}e^{-\int p}\implies$ first order linear ODE 
 ### Reduction of order $(y_{1}\implies y_{2})$
 Given $y_{1}$ solves $y''+py'+qy=0$, find $y_{2}$:
 Let $y_{2}=v(t)y_{1}(t)$

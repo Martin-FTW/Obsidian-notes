@@ -46,7 +46,8 @@
 
     // Override
     {trigger: "\\nu llity", replacement: "\\nullity", options: "mA"},
-    {trigger: "lim", replacement: "\\lim", options: "mA", priority: 1},
+    {trigger: "lim", replacement: "\\lim", options: "mA", priority: 10},
+    {trigger: "li\\minf", replacement: "liminf", options: "mA", priority: 10},
     {trigger: "\\supp", replacement: "\\supp", options: "mA", priority: 10},
     {trigger: "\\dot\{v\}s", replacement: "\\vdots", options: "mA"},
     {trigger: "\\cdots", replacement: "\\cdots", options: "mA", priority: 10},
@@ -152,8 +153,6 @@
     {trigger: "conj", replacement: "\\conj\{$0\}", options: "mA"},
     {trigger: "^\\topace", replacement: "\\tr", options: "mA"},
     {trigger: "det", replacement: "\\det", options: "mA"},
-    {trigger: "Re", replacement: "\\mathrm{Re}", options: "mA"},
-    {trigger: "Im", replacement: "\\mathrm{Im}", options: "mA"},
     {trigger: "pow", replacement: "\\power($0)$1", options: "mA"},
 
     {trigger: "([a-zA-Z]),\\.", replacement: "\\mathbf{[[0]]}", options: "rmA"},

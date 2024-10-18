@@ -5,7 +5,7 @@ We call $(X,\mathcal{M})$ a measurable space and elements in $\mathcal{M}$ are c
 Let $\mu:\mathcal{M}\to \clcl{0}{\infty}$ be a function.
 We call $\mu$:
 - finitely additive if $\forall$ disjoint $E_{1},\dots,E_{n}\in \mathcal{M}$ s.t. $\displaystyle\mu\left(\bigcup_{j=1}^{n} E_{j}\right)=\sum_{j=1}^{n} \mu(E_{j})$
-- countably additive if $\forall$ disjoint $\set{E_{j}}_{j=1}^{\infty}\subseteq \mathcal{M}$ s.t. $\displaystyle\mu\left(\bigcup_{j=1}^{\infty} E_{j}\right)=\sum_{j=1}^{\infty} \mu(E_{j})$\
+- countably additive if $\forall$ disjoint $\set{E_{j}}_{j=1}^{\infty}\subseteq \mathcal{M}$ s.t. $\displaystyle\mu\left(\bigcup_{j=1}^{\infty} E_{j}\right)=\sum_{j=1}^{\infty} \mu(E_{j})$
 - a measure if $\mu$ is countably additive and $\mu(\emptyset)=0$.
 
 Suppose $\mu$ is a measure.

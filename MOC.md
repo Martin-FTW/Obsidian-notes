@@ -31,6 +31,8 @@
 ##### Analysis
 - [[Sup, inf, limsup, liminf.canvas|Sup, inf, limsup, liminf]]
 - [[Bachmann–Landau notation]]
+- [[Fourier series]]
+- [[Measure integration]]
 ##### Linear algebra
 - [[Determinant]]
 - [[Diagonalizability.canvas|Diagonalizability]]
