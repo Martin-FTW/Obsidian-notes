@@ -48,4 +48,11 @@ Let $f,g\in L^{1}$ and $(f_{n})$ be a sequence in $L^{1}$.
   $\implies f\in L^{1},\int f=\lim \int f_{n}$ (DCT)
 - $\sum \int\abs{f_{n}}<\infty\implies \sum f_{n}<\infty\ae,\int\sum f_{n}=\sum \int f_{n}$
 - Let $F:X\times \opop{a}{b}\to \mathbb{R}$ s.t. $\begin{cases}\forall t\in \opop{a}{b}:F(\cdot,t)\in L^{1}\\\displaystyle \forall(x,t)\in X\times \opop{a}{b}:\frac{ \partial F}{ \partial t }(x,t)\text{ exists}\\\displaystyle \exists g\in L^{1}:\forall(x,t)\in X\times \opop{a}{b}:\abs*{\frac{ \partial F}{ \partial t }(x,t)}\leq g(x)\end{cases}$
-  $\displaystyle \implies t\mapsto \int\frac{ \partial F }{ \partial t }(x,t)\d \mu(x)$ is differentiable on $\opop{a}{b}$ and $\displaystyle\frac{d}{dt}\int F(x,t)\d \mu(x)=\int\frac{ \partial F}{ \partial t}(x,t)\d \mu(x)$
+  $\displaystyle \implies t\mapsto \int\frac{ \partial F }{ \partial t }(x,t)\d \mu(x)$ is differeiable on $\opop{a}{b}$ and $\displaystyle\frac{d}{dt}\int F(x,t)\d \mu(x)=\int\frac{ \partial F}{ \partial t}(x,t)\d \mu(x)$
+## Relation with Riemann
+- Let $-\infty<a<b<\infty$ and $f:\clcl{a}{b}\to \mathbb{R}$ be Riemann-integrable.
+  $\implies f$ is lebesgue measurable and integrable, with $\displaystyle\int_{a}^{b}f(x)\d x=\int_{\clcl{a}{b}}f\d \mu_{L}$
+- Let $a\in \mathbb{R}$ and $f:\clop{a}{\infty}\to \mathbb{R}$ be measurable.
+  Suppose $\forall c\in \opop{a}{\infty}:f\in R\clcl{a}{c}$.
+  Then $f\in L^{1}\clop{a}{\infty}\iff\displaystyle\lim_{c \to \infty}\int_{a}^{c}\abs{f(x)}\d x<\infty$.
+  In this case, $\displaystyle\int_{a}^{\infty}f(x)\d x=\int_{\clop{a}{\infty}}f\d \mu_{L}$

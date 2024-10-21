@@ -3,7 +3,7 @@ Book: [[Folland Real Analysis (RAMT&TA)]]
 Let $(X,\mathcal{M})$ be a measurable space.
 Let $f:X\to \overline{R}$ be a function.
 Define $f^{+},f^{-}:X\to \mathbb{R}$ by $f^{+}(x)=\max \set{f(x),0}$ and $f^{-}(x)=\max \set{-f(x),0}$.
-Now $f=f^{+}+f^{-}$, we call this the sign decomposition of $f$.
+Now $f=f^{+}-f^{-}$, we call this the sign decomposition of $f$.
 We call $f^{+}$ the positive part of $f$ and $f^{-}$ the negative part of $f$.
 If $f$ is measurable we have $f^{+},f^{-}$ are measurable.
 

@@ -49,4 +49,5 @@ Suppose $\displaystyle f(x^{+})\coloneqq\lim_{y\to x^{+}}f(y),f(x^{-})\coloneqq\
 Then $\displaystyle \lim(S_{n}f(x))=\frac{f(x^{+})+f(x^{-})}{2}$
 In particular, 
 - If $f$ is lipschitz at $x$, then $\lim(S_{n}f(x))=f(x)$.
-- If $f$ is uniformly lipschitz, then $S_{n}f\to f$ unfiromly on $\mathbb{R}$.
+- If $f$ is uniformly lipschitz, then $S_{n}f\to f$ unfiromly on $\mathbb{R}$
+- \.

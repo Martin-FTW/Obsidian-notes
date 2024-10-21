@@ -32,7 +32,7 @@ Then $\displaystyle \varphi(v)=y'=(xv)'=v+xv'\implies \frac{v'}{\varphi(v)-v}=\f
 ### Bernoulli $y'+py=qy^{n}$, $n>1$
 Let $\displaystyle z=y^{1-n}=\frac{1}{y^{n-1}}$. 
 Then we have the first order linear ODE in $z$: $z'=(1-n)y^{-n}y'=(1-n)y^{-n}(-py+qy^{n})=-(1-n)pz+(1-n)q$
-==Solve:== $\displaystyle y=\pm \sqrt[n-1]{ \frac{1}z }$ depending on odd/even./
+==Solve:== $\displaystyle y=\pm \sqrt[n-1]{ \frac{1}z }$ depending on odd/even.
 ## Second order linear
 	It suffices to find fundamental set by Wronskian
 ### Abel $(y_{1}\implies y_{2})$
