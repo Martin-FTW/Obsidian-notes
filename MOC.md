@@ -13,6 +13,7 @@
 - [[MATH3060]]
 - [[MATH3230]]
 ### Cheatsheets
+- [[Mathematical structures.canvas|Mathematical structures]]
 ##### ODE
 - [[ODE techniques]]
 - [[ODE theorems]]
@@ -33,6 +34,7 @@
 - [[Bachmann–Landau notation]]
 - [[Fourier series]]
 - [[Measure integration]]
+- [[Fixed point theorems]]
 ##### Linear algebra
 - [[Determinant]]
 - [[Diagonalizability.canvas|Diagonalizability]]
