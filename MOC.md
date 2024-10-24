@@ -35,6 +35,8 @@
 - [[Fourier series]]
 - [[Measure integration]]
 - [[Fixed point theorems]]
+- [[Inequalities]]
+- [[Function approximations]]
 ##### Linear algebra
 - [[Determinant]]
 - [[Diagonalizability.canvas|Diagonalizability]]

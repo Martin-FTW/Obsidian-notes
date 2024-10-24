@@ -6,7 +6,7 @@ Let $A\subseteq X$
 Define
 - $f:X\to Y$ is $(\mathcal{M},\mathcal{N})$-measurable if $\forall E\in \mathcal{N}:f^{-1}(E)\in \mathcal{M}$
 - $\phi:X\to Y$ is simple if $\im \phi$ is finite, or $\displaystyle \phi=\sum a_{j}\ind{E_{j}}$.
-- $L^{+}(X,\mathcal{M},\mu)=\set{f:X\to \clcl{0}{\infty}\given f\text{ is measurable}}$
+- $\measurable(X,\mathcal{M},\mu)=\set{f:X\to \clcl{0}{\infty}\given f\text{ is measurable}}$
 - $L(X,\mathcal{M},\mu)=\set*{f:X\to \overline{\mathbb{R}}\given \begin{array}{}f\text{ is measurable and }\\\int f^{+}<\infty \text{ or }\int f^{-}<\infty\end{array}}$
 - $f:X\to \overline{\mathbb{R}}$ is integrable if $\int f^{+}<\infty$ and $\int f^{-}<\infty$
 - $f:X\to \mathbb{C}$ is integrable if $\int\abs{f}<\infty$
@@ -14,19 +14,19 @@ Define
 - $L^{1}(X,\mathcal{M},\mu)=\set*{f:X\to \mathbb{C}\given f\text{ is integrable}}/\set{f=g\ae}$
 
 ### Simple approximation
-Let $f\in L^{+}$.
+Let $f\in \measurable$.
 Then $\exists$ simple functions $\phi_{n}:X\to \clcl{0}{\infty}$ s.t. 
 1. $\forall j\in \mathbb{Z}_{>0}:0\leq \phi_{j}\leq \phi_{j+1}\leq f$
 2. $\phi_{n}\to f$ pointwise
 3. $\forall A\subseteq X$: if $f\vert_{A}$ is bounded then $\phi_{n}\vert_{A}\to f\vert_{A}$ uniformly 
 ### Construction
 Notation: $\displaystyle \int\square=\int\square\d \mu=\int\square(x)\d \mu(x)\ ,\quad \int=\int_{X}\ ,\quad\int_{A}\square=\int_{X}\square\cdot \ind{A}$
-- $\displaystyle \phi=\sum a_{j}\ind{E_{j}}\in L^{+}:\int\phi=\sum a_{j}\mu(E_{j})$
-- $f\in L^{+}:\displaystyle \int f=\sup \set*{\int \phi \given 0\leq \phi \leq f,\phi \text{ simple}}$
+- $\displaystyle \phi=\sum a_{j}\ind{E_{j}}\in \measurable:\int\phi=\sum a_{j}\mu(E_{j})$
+- $f\in \measurable:\displaystyle \int f=\sup \set*{\int \phi \given 0\leq \phi \leq f,\phi \text{ simple}}$
 - $\displaystyle f\in L:\int f=\int f^{+}-\int f^{-}$
 - $\displaystyle f\in L^{1}:\int f=\int \Re f+i \int \Im f$
 ### Properties on positive
-Let $f,g\in L^{+}$ and $(f_{n})$ be a sequence in $L^{+}$
+Let $f,g\in \measurable$ and $(f_{n})$ be a sequence in $\measurable$
 - $A\mapsto \int_{A}1$ is a measure on $\mathcal{M}$
 - $\forall c\geq 0:\int cf=c\int f$ 
 - $f\leq g\implies\int f \leq \int g$ (monotone)
@@ -44,7 +44,7 @@ Let $f,g\in L^{1}$ and $(f_{n})$ be a sequence in $L^{1}$.
 - $[f\neq 0]$ is $\sigma$-finite
 - For $\im f,\im g\subseteq \mathbb{R}$: $f\leq g\ae\implies \int f\leq \int g$
 - $[f]_{\sim}=[g]_{\sim}\begin{cases}\iff\forall E\in \mathcal{M}:\int_{E}f=\int_{E}g\\\iff \int\abs{f-g}=0\\\iff f=g\ae\end{cases}$
-- $f_{n}\to f\ae$ and $\exists g\in L^{1}\cap L^{+}:\forall n\in \mathbb{Z}_{>0}:\abs{f_{n}}\leq g\ae$
+- $f_{n}\to f\ae$ and $\exists g\in L^{1}\cap \measurable:\forall n\in \mathbb{Z}_{>0}:\abs{f_{n}}\leq g\ae$
   $\implies f\in L^{1},\int f=\lim \int f_{n}$ (DCT)
 - $\sum \int\abs{f_{n}}<\infty\implies \sum f_{n}<\infty\ae,\int\sum f_{n}=\sum \int f_{n}$
 - Let $F:X\times \opop{a}{b}\to \mathbb{R}$ s.t. $\begin{cases}\forall t\in \opop{a}{b}:F(\cdot,t)\in L^{1}\\\displaystyle \forall(x,t)\in X\times \opop{a}{b}:\frac{ \partial F}{ \partial t }(x,t)\text{ exists}\\\displaystyle \exists g\in L^{1}:\forall(x,t)\in X\times \opop{a}{b}:\abs*{\frac{ \partial F}{ \partial t }(x,t)}\leq g(x)\end{cases}$
